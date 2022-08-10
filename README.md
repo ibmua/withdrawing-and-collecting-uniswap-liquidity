@@ -5,7 +5,7 @@ To run example code you can install Ganache Ethereum simulator and run it with a
 
 ```
 sudo apt update
-sudo apt install npm
+sudo apt install npm git
 sudo npm install ganache -g
 ganache --miner.blockTime 1 --fork.url wss://mainnet.infura.io/ws/v3/[get your own RPC url, please, for example, at infura.io]@13266287  --wallet.unlockedAccounts 0xE2313Ab106fFb9196b29f5B8880Ab474355deb90
 ```
