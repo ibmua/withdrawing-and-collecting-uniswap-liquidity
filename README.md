@@ -27,7 +27,7 @@ ganache --miner.blockTime 1 --fork.url wss://mainnet.infura.io/ws/v3/[get your o
 `@13266287` makes Ganache start simulation from Ethereum block 13266287. `--wallet.unlockedAccounts` enables us able to simulate unsigned transactions, so we don't have to know or share a private key to the unlocked accounts in order to send transactions from these accounts.
 
 
-Open another terminal tab/window in parallel, get into the current project folder and run the script.
+Now open another terminal tab/window in parallel, get into the current project folder and run the script. If you opened the tab before installing stuff above, you might run into issues, because your terminal environment will not yet know that those programs were installed. Best thing to do in that case is close and reopen the tab, or ssh connection if running on a remote server via SSH.
 ```
 node geth_liquidity_web3.mjs
 ```
