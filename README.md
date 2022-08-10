@@ -23,7 +23,7 @@ npm install web3
 ganache --miner.blockTime 1 --fork.url wss://mainnet.infura.io/ws/v3/[get your own RPC url, please, for example, at infura.io]@13266287  --wallet.unlockedAccounts 0xE2313Ab106fFb9196b29f5B8880Ab474355deb90
 ```
 
-- Ganache should start and you should see `RPC Listening on 127.0.0.1:8545` at the end. Leave this window open.
+Ganache should start and you should see `RPC Listening on 127.0.0.1:8545` at the end. Leave this window open.
 `@13266287` makes Ganache start simulation from Ethereum block 13266287. `--wallet.unlockedAccounts` enables us able to simulate unsigned transactions, so we don't have to know or share a private key to the unlocked accounts in order to send transactions from these accounts.
 
 
