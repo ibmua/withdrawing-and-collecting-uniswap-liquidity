@@ -14,7 +14,7 @@ To run example code you can install Ganache Ethereum simulator and run it with a
 ```
 sudo apt update
 sudo apt install git
-sudo npm install ganache -g
+npm install ganache -g
 
 git clone https://github.com/ibmua/withdrawing-and-collecting-uniswap-liquidity.git
 cd withdrawing-and-collecting-uniswap-liquidity
